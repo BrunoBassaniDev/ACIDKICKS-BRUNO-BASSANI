@@ -1,0 +1,10 @@
+.video{
+    height: 300px;
+    width: 150px;
+}
+
+.jumbotronvideo{
+    background-image: url(img/img/Comercialniketerminado.mp4);
+    height: 500px;
+    background-size: cover;
+}
