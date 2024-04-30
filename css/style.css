@@ -1,10 +1,6 @@
-.video{
-    height: 300px;
-    width: 150px;
+
+
+.logo{
+    max-width: 50%; 
 }
 
-.jumbotronvideo{
-    background-image: url(img/img/Comercialniketerminado.mp4);
-    height: 500px;
-    background-size: cover;
-}
