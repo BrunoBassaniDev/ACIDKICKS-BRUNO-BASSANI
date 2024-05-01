@@ -69,6 +69,19 @@
     color: rgb(106, 96, 96);
 }
 
+.titulo-productos{
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        color: #fff;
+        padding: 35px;
+        margin: 0px;
+        font-size: 55px;
+        border:10px solid white;
+}
+
+
+
 footer{
     background-color: #000;
     text-align: center;
