@@ -99,7 +99,7 @@
 }
 
 
-.contenedor h3 {
+.contenedor h2 {
     display: flex;
     justify-content: center;
     background-color: black;
@@ -118,7 +118,12 @@
 /* TIENDAS */
 
 /* NOSOTROS */
-
+.texto-nosotros{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    text-align: center;
+}
 /* NOSOTROS */
 
 /* CONTACTO */
@@ -201,7 +206,7 @@ footer a:hover {
 }
 
 /* FOOTER */
-/* ANIMACION */
+/* ANIMACIONES */
 .btn {
     padding: 1.1em 2em;
     background: none;
@@ -244,7 +249,7 @@ footer a:hover {
     transform: scale(0.9);
 }
 
-/* ANIMACION */
+/* ANIMACIONES */
 
 /* MEDIA QUERIES  */
 @media screen and (min-width: 876px) {
@@ -289,9 +294,16 @@ footer a:hover {
 }
 
 @media screen and (max-width: 580px) {
-    .nosotros {
+    .nosotros{
         font-size: 15px;
     }
+
 }
 
+@media screen and (max-width: 580px) {
+    .texto-nosotros{
+        font-size: 23px;
+    }
+
+}
 /* MEDIA QUERIES  */
