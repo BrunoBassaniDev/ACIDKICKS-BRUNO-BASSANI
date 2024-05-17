@@ -1,0 +1,86 @@
+$color1: #fff;
+$color2: #000000;
+
+$posicion: center;
+
+$px0: 0px;
+
+@mixin tamaños ($height, $width,){
+height: $height;
+width: $width;
+}
+
+@mixin colores ($color, $font-size ){
+    color: $color;
+    font-size: $font-size;
+    }
+/* INDEX */
+
+.titulo-principal {
+    @include colores($color1, 55px);
+    display: flex;
+    justify-content: $posicion;
+    align-items: $posicion;
+    background-color: $color2;
+    padding: 55px;
+    margin: $px0;
+    border: 3px solid $color1;
+    border-bottom: $px0;
+}
+
+.video {
+    @include tamaños(100%, 100%);
+    margin: $px0;
+    border: 3px solid $color1;
+    border-bottom: $px0;
+}
+
+.titulo-destacado {
+    display: flex;
+    justify-content: $posicion;
+    background-color: $color2;
+    color: $color1;
+    padding: 35px;
+    margin: $px0;
+    font-size: 55px;
+    border: $px0 solid $color1;
+    border-top: $px0;
+
+}
+
+.container-cards {
+    display: flex;
+
+    .card1{
+        font-weight: 500;
+    }
+
+    .card2{
+        @extend .card1;
+        font-style: italic;
+    }
+
+    .card3{
+        @extend .card1;
+        font-style: oblique ;
+    }
+    }
+
+
+
+.card p {
+    text-align: $posicion;
+    margin: 10px;
+    padding: 15px;
+    font-size: 30px;
+}
+
+.card a {
+    display: flex;
+    justify-content: $posicion;
+    align-items: $posicion;
+    margin: 10px;
+    padding: 15px;
+}
+
+/* INDEX */

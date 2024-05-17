@@ -1,0 +1,20 @@
+$color1: #fff;
+$color2: #000000;
+
+$posicion: center;
+
+$px0: 0px;
+
+/* PRODUCTOS */
+.titulo-productos {
+    display: flex;
+    justify-content: $posicion;
+    background-color: $color2;
+    color: $color1;
+    padding: 35px;
+    margin: $px0;
+    font-size: 35px;
+    border: 3px solid $color1;
+}
+
+/* PRODUCTOS */

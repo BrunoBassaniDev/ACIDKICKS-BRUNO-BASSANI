@@ -1,0 +1,11 @@
+SEO
+
+1-Elimino datos de imágenes innecesarios
+2-Optimizo imágenes con extensión Tinypng
+3-Agrego meta description en todas las secciones
+4-Agrego meta keywords en todas las secciones
+5-Agrego favicon
+6-Agrego títulos a cada página
+7-Ordeno encabezados
+8-Los textos redactados son fáciles de leer
+9-Agrego texto alt a todas las imagenes

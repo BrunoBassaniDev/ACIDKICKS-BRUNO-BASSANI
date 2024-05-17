@@ -1,0 +1,49 @@
+/* MEDIA QUERIES  */
+@media screen and (min-width: 876px) {
+    .logo {
+        max-width: 400px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .nav-link {
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 545px) {
+    .container-cards {
+        display: grid;
+    }
+}
+
+@media screen and (min-width:655px) and (max-width: 776px) {
+    .titulo-principal {
+        font-size: 45px;
+    }
+
+    .titulo-destacado {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 655px) {
+    .titulo-principal {
+        font-size: 35px;
+    }
+    .titulo-destacado {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .nosotros{
+        font-size: 15px;
+    }
+    .texto-nosotros{
+        font-size: 23px;
+    }
+}
+
+
+/* MEDIA QUERIES  */

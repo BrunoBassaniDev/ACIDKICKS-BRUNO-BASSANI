@@ -1,0 +1,33 @@
+$color1: #fff;
+
+/* HEADER */
+
+
+.logo {
+    max-width: 100%;
+}
+
+nav {
+
+    ul {
+        
+        .nav-link {
+            color: $color1 !important;
+            margin-right: 15px;
+        }
+
+        a {
+
+            &:hover {
+                color: grey !important;
+            }
+
+        }
+    }
+
+}
+
+
+
+
+/* HEADER */

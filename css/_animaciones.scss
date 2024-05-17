@@ -1,0 +1,54 @@
+$color1: #fff;
+$color2: #000000;
+
+$posicion: center;
+
+$px0: 0px;
+
+/* ANIMACIONES */
+.btn {
+    padding: 1.1em 2em;
+    background: none;
+    border: 2px solid $color1;
+    font-size: 15px;
+    color: $color1;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s;
+    border-radius: 12px;
+    background-color: $color2;
+    font-weight: bolder;
+    box-shadow: 0 2px 0 2px $color2;
+
+    &:before {
+        content: "";
+        position: absolute;
+        width: 100px;
+        height: 120%;
+        background-color: $color1;
+        top: 50%;
+        transform: skewX(80deg) translate(-280%, -150%);
+        transition: all 0.8s;
+    }
+
+    &:hover {
+        background-color: #086d2f;
+        color: $color1;
+        box-shadow: 0 2px 0 2px #0d3b66;
+
+        &::before {
+            transform: skewX(30deg) translate(150%, -50%);
+            transition-delay: 0.1s;
+        }
+    }
+
+    &:active {
+        transform: scale(0.9);
+    }
+
+}
+
+
+
+/* ANIMACIONES */
